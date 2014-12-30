@@ -30,7 +30,7 @@
         - firefox       # mainly for testing purposes
         - iterm2        # a better Terminal
         - spotify       # music
-        - mailmate      # gui mail
+        - rdio          # see above
         - colorpicker-developer # A better color picker (easy access to html/UIColor)
         - vlc
         - qlstephen # Quicklook any possible text file. You need this.
@@ -38,7 +38,39 @@
         - omnigraffle # Mostly for wireframing
         - iphone-configuration-utility # [A sane way to handle the Provisioning profile mess](http://support.apple.com/kb/DL1465)
         - virtualbox
-        - silverlight # sigh.
+        - evernote      # Notes that last forever.
+        - capo          # Reverse Engineering Rock and Roll http://supermegaultragroovy.com/products/capo/
+        - dash          # API docsets
+        - divvy         # Grid 'window manager'
+        - sizeup        # See above.
+        - drobo-dashboard # NAS/DAS/FTW
+        - fantastical   # Quickly get sick by viewing ALL TEH MEETINGS ARE BELONG TO YOU
+        - libreoffice   # Solves: "Here's the PRS in a .ppt" or "Here's the content for the CMS in a .xls"
+        - marked        # Markdown preview
+        - prizmo        # Scan & OCR http://www.creaceed.com/prizmo
+        - sketch        # <INSERT DESCRIPTION OF APP HERE>
+        - vagrant       # Easily track hobos in your area.
+        - xscope        # Easily target hobos in your area. 
+        - alfred        # A butler.
+        - android-file-transfer # Ugh.
+        - expandrive    # Mount SFTP, FTP, FTP/S, and Amazon S3.
+        - handbrake     # The West Wing.
+        - makemkv       # The West Wing.
+        - air-video-server # The West Wing.
+        - istat-menus   # WHY U STAT MENUZ?
+        - path-finder   # Finder on steroids http://www.cocoatech.com/pathfinder/
+        - superduper    # Clone disks
+        - propane       # Campfire client
+        - gitx          # Git GUI
+        - cornerstone   # SVN GUI
+        - github        # The hub for your digital life.
+        - android-studio  # Ugh.
+        - rubymine      # Yah.
+        - appcode       # Yah Too.
+        - sublime-text  # Somehwat Yah.
+        - textmate      # Yah. Yah.
+        - kaleidoscope  # Yahtzee!
+        - tunnelblick   # OpenVPN client
     - name: Tap homebrew fonts
       homebrew_tap: tap=caskroom/fonts state=present
     - name: Install DejaVu Sans Mono
