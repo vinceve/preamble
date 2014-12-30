@@ -1,16 +1,25 @@
 ---
 # Everything related to ruby
-- name: Install chruby
-  homebrew: name=chruby state=present
-- name: Install ruby-install
-  homebrew: name=ruby-install state=present
-- include: ruby-install.yml rubies={{ rubies }}
-  vars:
-    rubies:
-      - {flavor: "ruby", version: "2.0.0"}
-      - {flavor: "ruby", version: "2.1.2"}
-      - {flavor: "ruby", version: "1.9.3"}
-      - {flavor: "jruby", version: "stable"}
+- name: install rvm
+  shell: \curl -L https://get.rvm.io | bash -s stable --autolibs=4 creates=~/.rvm
+- name: Install rubies
+  shell: ~/.rvm/bin/rvm install --default {{ item }} creates=~/.rvm/rubies/{{ item }}
+  with_items:
+      - ruby-1.9.3-p547
+      - ruby-2.1.5
+      - jruby-1.7.4
+#      - ree-1.8.7-2012.02
+# - name: Install chruby
+#   homebrew: name=chruby state=present
+# - name: Install ruby-install
+#   homebrew: name=ruby-install state=present
+# - include: ruby-install.yml rubies={{ rubies }}
+#   vars:
+#     rubies:
+#       - {flavor: "ruby", version: "2.0.0"}
+#       - {flavor: "ruby", version: "2.1.2"}
+#       - {flavor: "ruby", version: "1.9.3"}
+#       - {flavor: "jruby", version: "stable"}
 - name: Install Postgres (with workaround for DP7)
   homebrew: name=postgres state=present install_options=no-perl
 - name: Install Redis
