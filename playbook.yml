@@ -21,6 +21,15 @@
         - ngrok # [Easy way to get a public IP](https://ngrok.com)
         - htop # [A better top](http://hisham.hm/htop/)
         - tig # A 'text-mode interface' for git. Bit more visual than regular git.
+        - mongodb
+        - sbcl
+        - wget
+        - imagemagick
+        - asciidoc
+        - bash-completion
+        - exiftool
+        - qt
+        - qrencode
     - name: Install Applications
       homebrew_cask: name={{ item }} state=present
       with_items:
