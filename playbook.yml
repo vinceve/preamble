@@ -38,7 +38,7 @@
       with_items:
         - google-chrome # Mainly for it's handier shortcuts
         - dropbox       # Necessary evil
-        - onepassword   # Password manager
+        - 1password   # Password manager
         - firefox       # mainly for testing purposes
         - iterm2        # a better Terminal
         - spotify       # music
@@ -47,22 +47,11 @@
         - vlc
         - qlstephen # Quicklook any possible text file. You need this.
         - lastfm # My favorite social network to never visit.
-        - omnigraffle # Mostly for wireframing
-        - iphone-configuration-utility # [A sane way to handle the Provisioning profile mess](http://support.apple.com/kb/DL1465)
         - virtualbox
-        - evernote      # Notes that last forever.
-        - capo          # Reverse Engineering Rock and Roll http://supermegaultragroovy.com/products/capo/
-        - dash          # API docsets
-        - divvy         # Grid 'window manager'
         - sizeup        # See above.
         - drobo-dashboard # NAS/DAS/FTW
-        - fantastical   # Quickly get sick by viewing ALL TEH MEETINGS ARE BELONG TO YOU
         - libreoffice   # Solves: "Here's the PRS in a .ppt" or "Here's the content for the CMS in a .xls"
-        - marked        # Markdown preview
-        - prizmo        # Scan & OCR http://www.creaceed.com/prizmo
-        - sketch        # <INSERT DESCRIPTION OF APP HERE>
         - vagrant       # Easily track hobos in your area.
-        - xscope        # Easily target hobos in your area. 
         - alfred        # A butler.
         - android-file-transfer # Ugh.
         - expandrive    # Mount SFTP, FTP, FTP/S, and Amazon S3.
