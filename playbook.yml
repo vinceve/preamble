@@ -26,6 +26,7 @@
         - imagemagick
         - asciidoc
         - bash-completion
+        - pstree
         - exiftool
         - qt
         - qrencode
@@ -62,7 +63,6 @@
         - path-finder   # Finder on steroids http://www.cocoatech.com/pathfinder/
         - superduper    # Clone disks
         - propane       # Campfire client
-        - gitx          # Git GUI
         - cornerstone   # SVN GUI
         - github        # The hub for your digital life.
         - sublime-text  # Somehwat Yah.
